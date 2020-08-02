@@ -1,0 +1,129 @@
+.mui-scroll-wrapper {
+	background-color: #F8F7FE;
+}
+
+.mui-scroll {
+	width: 100%;
+}
+
+.menutop {
+	background-image: url('../img/p2%20(1).png');
+	background-size: 100%;
+	padding: 15% 0;
+}
+
+.menudata {
+	padding: 0 5%;
+	display: flex;
+}
+
+.menudata>div {
+	color: white;
+}
+
+.menudata>div:first-child {
+	font-size: 80px;
+	line-height: 50%;
+}
+
+.menudata>div:last-child>div {
+	font-size: larger;
+}
+
+.menudata>div:last-child>div:first-child {
+	padding-bottom: 10px;
+}
+
+.menutext {
+	padding: 8% 10% 0 10%;
+	color: white;
+	font-size: large;
+}
+
+.menu-adav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.menu-adavimg {
+	width: 30%;
+	padding: 3%;
+}
+
+.menu-adavimg>img {
+	width: 100%;
+}
+
+.menu-adavtext {
+	font-size: small;
+	font-weight: bolder;
+	margin: auto 0;
+	white-space: nowrap;
+}
+
+.menu-vip {
+	margin: auto 0;
+	padding: 0 5%;
+}
+
+.menu-vip>input {
+	background-color: #06B706;
+	border-radius: 30px;
+	border: 0;
+	color: black;
+	font-weight: bolder;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.menu-list {
+	padding-bottom: 5%;
+}
+
+.mui-navigate-right>span {
+	line-height: 100%;
+}
+
+.mui-navigate-right>span {
+	font-size: smaller;
+	font-weight: bolder;
+}
+
+.mui-navigate-right>span:last-child {
+	padding: 0 6%;
+}
+
+.mui-table-view:before,
+.mui-table-view:after,
+.mui-table-view-cell:before,
+.mui-table-view-cell:after {
+	display: none;
+}
+
+.iconfont:before {
+	font-size: large;
+}
+
+.icon-shangchuan:before {
+	font-size: 48px;
+	color: #000000;
+}
+
+.menu-footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 5%;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+}
+
+.menu-footer>div>div:first-child,
+.menu-footer>div>div:last-child{
+	text-align: center;
+	margin: auto 0;
+	
+}

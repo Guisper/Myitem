@@ -1,0 +1,100 @@
+.p2-header {
+	width: 100%;
+	padding: 30px 15px;
+	background-image: url('../img/p2%20(3).png');
+	background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.adav {
+	margin: auto 0;
+	display: flex;
+}
+
+.adavimg {
+	width: 30%;
+}
+
+.adavimg>img {
+	width: 100%;
+}
+
+.adavtxt {
+	margin: auto 10px;
+	font-size: smaller;
+	font-weight: bold;
+}
+
+.upload {
+	margin: auto 0;
+}
+
+.icon-shangchuan:before {
+	font-size: 48px;
+	color: #000000;
+}
+
+.p2-data {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.p2-data>div {
+	padding: 5px;
+}
+
+.p2-data>div>div {
+	text-align: center;
+}
+
+.p2-data>div :last-child {
+	color: #878c88;
+}
+
+.data-active {
+	background-color: #2AC845;
+	border-radius: 10px;
+	color: white;
+}
+
+.data-active>div:last-child {
+	color: white;
+}
+
+.chart12 {
+	width: 100%;
+	display: flex;
+}
+
+#Chart1,
+#Chart2 {
+	width: 46%;
+	height: 200px;
+	margin: 2%;
+	background-color: #2BBE5D;
+	border-radius: 10px;
+}
+
+.chart3,
+.chart4 {
+	width: 100%;
+}
+
+.chart4{
+	border:0.1px solid #EFEFF4;
+}
+
+#Chart3,
+#Chart4 {
+	height: 200px;
+	background-color: #2BBE5D;
+	margin: 2%;
+	border-radius: 10px;
+}
+
+#Chart4 {
+	margin-bottom: 30px;
+}

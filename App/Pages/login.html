@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.css" rel="stylesheet" />
+		<script src="../js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<link rel="stylesheet" type="text/css" href="../css/Myicon.css" />
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+	</head>
+	<body>
+		<div class="back">
+			<span class="mui-action-back mui-icon iconfont icon-fanhui1"></span>
+		</div>
+		<div class="login">
+			<div class="text">欢迎登陆</div>
+			<div class="inputBox">
+				<div class="number">
+					<div>邮箱/手机号/QQ号</div>
+					<div class="mui-input-row"><input type="text" class="mui-input-clear" placeholder=""></div>
+				</div>
+				<div class="password">
+					<div>密码</div>
+					<div class="mui-input-row mui-password">
+						<input type="password" class="mui-input-password">
+					</div>
+				</div>
+			</div>
+			<div class="loginBtn"><input type="button" name="" id="" value="登陆" /></div>
+			<div class="forgetpassword">忘记密码</div>
+		</div>
+		<div class="register" id="login">
+			<span>没有账号？</span><span>注册一个</span>
+		</div>
+	</body>
+	<script type="text/javascript">
+		mui.plusReady(function() {
+			//设置底部绝对位置
+			document.getElementById('login').style.top = (plus.display.resolutionHeight - 50) + "px";
+		});
+	</script>
+</html>

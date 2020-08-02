@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<script src="../js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<link rel="stylesheet" type="text/css" href="../css/P1-prod.css" />
+	</head>
+	<body>
+		<div class="P2box">
+			<header class="mui-bar mui-bar-nav">
+				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+				<div class="mui-input-row mui-search search">
+					<input type="search" class="mui-input-clear" placeholder="余氯">
+				</div>
+				<div class="p1-1-header">
+					<a class="mui-tab-item">
+						<span class="mui-icon iconfont icon-share"></span>
+					</a>
+					<a class="mui-tab-item page-shopping-cart">
+						<span class="mui-icon iconfont icon-gouwuche"></span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-icon iconfont icon-gengduo"></span>
+					</a>
+				</div>
+			</header>
+			<div class="mui-content">
+				<div class="topimg">
+					<img src="../img/p1%20(10).png">
+				</div>
+				<div class="price">
+					<div>
+						<div class="pricecount">
+							<span>¥2500</span>
+							<span>价格¥<del>2900</del></span>
+						</div>
+						<div class="priceBtn">
+							<input type="button" value="购买得积分" />
+							<input type="button" value="送赠品" />
+						</div>
+					</div>
+					<div class="pric-detalis"><span>河道水、地表水水质监测清洁太阳能自动GPS实时监测</span></div>
+					<div class="pric-share">
+						<a class="mui-tab-item">
+							<span class="mui-icon iconfont icon-aixin">推荐</span>
+						</a>
+						<a class="mui-tab-item">
+							<span class="mui-icon iconfont icon-geryshare">分享</span>
+						</a>
+					</div>
+				</div>
+				<div class="prod-detals">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell">
+							<div>
+								<span>发货</span>
+								<a class="mui-navigate-right">
+									<span class="dispatching">成都 快递:免运费</span><br>
+									<span class="dispatchingto">配送至:成都市 龙泉驿区 十陵街道</span>
+								</a>
+							</div>
+
+						</li>
+						<li class="mui-table-view-cell">
+							<div>
+								<span>保障</span>
+								<a class="mui-navigate-right">
+									<span class="ensure">借一赔四&退货运费险&急速退款</span>
+								</a>
+							</div>
+						</li>
+						<li class="mui-table-view-cell">
+							<div>
+								<span>参数</span>
+								<a class="mui-navigate-right">
+									<span class="parameter">品牌 产地...</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer" id="bottom">
+				<div class="callus">
+					<div><a class="mui-tab-item"><span class="mui-icon iconfont icon-dianhua"></span></a></div>
+					<div class="ft-txt">联系我们</div>
+				</div>
+				<div class="like">
+					<div><a class="mui-tab-item"><span class="mui-icon iconfont icon-xingxing"></span></a></div>
+					<div class="ft-txt">收藏</div>
+				</div>
+				<div class="buy">
+					<div class="buy1"><input type="button" name="" id="" value="加入购物车" /></div>
+					<div class="buy2"><input type="button" name="" id="" value="立即购买" /></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		mui('.p1-1-header').on("tap", '.page-shopping-cart', function(e) {
+			mui.openWindow({
+				url: "Page2-1.html",
+				id: "Page2-1.html",
+				style: {},
+				show: {
+					autoShow: true,
+					aniShow: "pop-in",
+					duration: 500
+				},
+				waiting: {
+					autoShow: true,
+					title: "加载中...",
+					options: {}
+				}
+			})
+		})
+
+		mui.plusReady(function() {
+			//设置底部绝对位置
+			document.getElementById('bottom').style.top = (plus.display.resolutionHeight - 50) + "px";
+		});
+	</script>
+</html>
