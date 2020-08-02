@@ -1,0 +1,146 @@
+
+.prevent {
+    margin: 10px;
+  }
+
+.prevent>div>h3 {
+    font-size: 28px;
+    padding: 40px;
+    margin-top: 30px;
+  }
+
+  .precont{
+    width: 100%;
+    display: flex;
+  }
+
+  .lprepic{
+    width: 30%;
+  }
+  .lprepic>img{
+    width: 100%;
+  }
+
+  .rprepic{
+    width: 20%;
+    padding-top: 20%;
+  }
+  .rprepic>img{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .centercont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cc1{
+      display: flex;
+  }
+  
+  .cc2{
+      display: flex;
+  }
+
+  .c1{
+      width: 50%;
+      padding: 0 30px;
+      display: flex;
+      flex-direction: column;
+      float: left;
+  }
+  .c1>h4{
+      padding: 5px;
+      font-size: xx-large;
+      font-weight: bold;
+      font-family: "华文行楷";
+  }
+  .c1>span{
+    padding: 5px;
+    font-size: larger;
+    color: #7CBD44;
+    font-family: "微软雅黑";  
+    text-indent: 2em;
+  }
+  .c1>img{
+    width: 100%;
+    height: 50%;
+  }
+
+
+.c2{
+    width: 50%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.c2>h4{
+    padding: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "华文行楷";
+}
+.c2>span{
+  padding: 5px;
+  font-size: larger;
+  color: #7CBD44;
+  font-family: "微软雅黑";  
+  text-indent: 2em;
+}
+.c2>img{
+  width: 100%;
+  height: 50%;
+}
+
+
+.c3{
+    width: 50%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+.c3>h4{
+    padding: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "华文行楷";
+}
+.c3>span{
+  padding: 5px;
+  font-size: larger;
+  color: #7CBD44;
+  font-family: "微软雅黑";  
+  text-indent: 2em;
+}
+.c3>img{
+  width: 100%;
+  height: 50%;
+}
+
+
+.c4{
+  width: 50%;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+.c4>h4{
+  padding: 5px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "华文行楷";
+}
+.c4>span{
+    padding: 5px;
+    font-size: larger;
+    color: #7CBD44;
+    font-family: "微软雅黑";  
+    text-indent: 2em;
+}
+.c4>img{
+width: 100%;
+height: 40%;
+}

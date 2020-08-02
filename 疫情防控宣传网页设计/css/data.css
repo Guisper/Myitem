@@ -1,0 +1,188 @@
+  .time {
+    padding: 40px 40px 10px 40px;
+    margin-top: 20px;
+    font-size: x-large;
+  }
+
+  .time>h3 {
+    margin-bottom: 10px;
+  }
+
+  .time>span {
+    color: #999999;
+    font-size: smaller;
+  }
+
+  .time>h4{
+    padding: 10px;
+  }
+
+  .data {
+    width: 100%;
+  }
+
+  .block {
+    display: block;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    background: #BEFCFF;
+    padding-top: 15px;
+  }
+
+  .b1 {
+    border-top-left-radius: 20px;
+  }
+
+  .b4 {
+    border-bottom-right-radius: 20px;
+  }
+
+  .head {
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .num {
+    font-weight: bold;
+    font-size: xx-large;
+
+  }
+
+  .num1 {
+    color: #B11101;
+  }
+
+  .num2 {
+    color: #FBB417;
+  }
+
+  .num3 {
+    color: #5D7092;
+  }
+
+  .num4 {
+    color: #77B634;
+  }
+
+  .comp {
+    font-size: x-smalle;
+    color: #999999;
+  }
+
+  .li1 {
+    list-style: none;
+    width: 25%;
+    text-align: center;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: larger;
+  }
+
+  .l1 {
+    background: #E3E7F3;
+  }
+
+  .l2 {
+    background: #E69A8D;
+  }
+
+  .l3 {
+    background: #B4C0D5;
+  }
+
+  .l4 {
+    background: #95DB9A;
+  }
+
+  .ul {
+    width: 100%;
+  }
+
+  .ul1,
+  .ul2,
+  .ul3,
+  .ul4 {
+    margin-top: 10px;
+  }
+  
+  .ftime {
+    padding: 0 40px 10px 40px;
+    font-size: x-large;
+  }
+
+  .ftime>h4 {
+    margin-bottom: 10px;
+  }
+
+  .ftime>span {
+    color: #999999;
+    font-size: smaller;
+  }
+
+  .fdata {
+    width: 100%;
+  }
+
+  .fblock {
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    background: rgb(237, 218, 255);
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .fb0 {
+    border-top-left-radius: 20px;
+  }
+
+  .fb4 {
+    border-bottom-right-radius: 20px;
+  }
+
+  .fnum {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 20px;
+  }
+
+  .fnum0 {
+    color: rgb(32, 32, 32);
+  }
+
+  .fnum1 {
+    color: rgb(255, 21, 0);
+  }
+
+  .fnum2 {
+    color: rgb(201, 204, 0);
+  }
+
+  .fnum3 {
+    color: rgb(98, 156, 255);
+  }
+
+  .fnum4 {
+    color: rgb(104, 202, 0);
+  }
+
+  .fcomp {
+    font-size: x-smalle;
+    color: #999999;
+  }
+
+  .fhead {
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .compt{
+    color: #999999;
+  }
