@@ -36,9 +36,9 @@ mui.plusReady(function() {
 		}
 		plus.webview.show(subPages[0]);
 	}, 2000);
-
-})
-mui(".mui-bar-tab").on("tap", "a", function(e) {
+	mui(".mui-bar-tab").on("tap", "a", function(e) {
 	var tagPage = this.getAttribute("href");
-	plus.webview.show(tagPage, "fade-in", 10);
+	plus.webview.show(tagPage, "fade-in", 50);
+   })
 })
+
