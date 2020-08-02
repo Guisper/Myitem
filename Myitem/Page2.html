@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/mui.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<link href="css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/iconfont-append.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/P2-content.css" />
+		<link rel="stylesheet" type="text/css" href="css/P2-Menu.css" />
+		<script src="js/echarts.js"></script>
+	</head>
+	<body>
+		<!-- 主界面不动、菜单移动 -->
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable mui-scalable">
+			<!-- 菜单容器 -->
+			<aside class="mui-off-canvas-left" id="offCanvasSide">
+				<div class="mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<!-- 菜单具体展示内容 -->
+						<div class="menutop">
+							<div class="menudata">
+								<div>11</div>
+								<div>
+									<div>Jul</div>
+									<div>Thursday</div>
+								</div>
+							</div>
+							<div class="menutext">如果有梦想，就守护它</div>
+						</div>
+						<div class="menu-adav gotologin">
+							<div class="menu-adavimg">
+								<img src="img/p2%20(2).png">
+							</div>
+							<div class="menu-adavtext login">
+								登陆/注册会员
+							</div>
+							<div class="menu-vip">
+								<input type="button" name="" id="" value="开通会员>" />
+							</div>
+						</div>
+						<div class="menu-list">
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-lishijilu"></span>
+										<span>运行记录</span>
+									</a>
+								</li>
+								<li class="mui-table-view-cell page-divice-manage">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-manage"></span>
+										<span>设备管理</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-list">
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-zhangdan"></span>
+										<span>账单</span>
+									</a>
+								</li>
+								<li class="mui-table-view-cell page-meichandise">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-gouwuche"></span>
+										<span>购物车</span>
+									</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-daifahuo"></span>
+										<span>待发货</span>
+									</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-daishouhuofuben"></span>
+										<span>待收货</span>
+									</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-daifukuan"></span>
+										<span>待付款</span>
+									</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a class="mui-navigate-right">
+										<span class="mui-icon iconfont icon-tuikuan"></span>
+										<span>退款&售后</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="menu-footer">
+							<div>
+								<div>
+									<span class="mui-icon iconfont icon-shezhi"></span>
+								</div>
+								<div>设置</div>
+							</div>
+							<div>
+								<div>
+									<span class="mui-icon iconfont icon-icon__gengduo_yejianmoshi"></span>
+								</div>
+								<div>夜间</div>
+							</div>
+							<div>
+								<div>
+									<span class="mui-icon iconfont icon-share"></span>
+								</div>
+								<div>分享</div>
+							</div>
+							<div>
+								<div>
+									<span class="mui-icon iconfont icon-haoping"></span>
+								</div>
+								<div>好评</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 主页面标题 -->
+				<div class="mui-content">
+					<div class="p2-header gotologin">
+						<div class="adav">
+							<div class="adavimg">
+								<img src="img/p2%20(2).png">
+							</div>
+							<div class="adavtxt login">
+								登陆/注册会员
+							</div>
+						</div>
+						<div class="upload">
+							<a class="mui-tab-item">
+								<span class="mui-icon iconfont icon-shangchuan"></span>
+							</a>
+						</div>
+					</div>
+					<div class="p2-data" id="p2-data">
+						<div>
+							<div>Mon</div>
+							<div>8</div>
+						</div>
+						<div>
+							<div>Tue</div>
+							<div>9</div>
+						</div>
+						<div>
+							<div>Wed</div>
+							<div>10</div>
+						</div>
+						<div class="data-active">
+							<div>Thu</div>
+							<div>11</div>
+						</div>
+						<div>
+							<div>Fri</div>
+							<div>12</div>
+						</div>
+						<div>
+							<div>Sat</div>
+							<div>13</div>
+						</div>
+						<div>
+							<div>Sun</div>
+							<div>14</div>
+						</div>
+					</div>
+					<div class="chart12">
+						<div id="Chart1"></div>
+						<div id="Chart2"></div>
+					</div>
+					<div class="chart3">
+						<div id="Chart3">
+
+						</div>
+					</div>
+					<div class="chart4">
+						<div id="Chart4"></div>
+					</div>
+					<div class="mui-off-canvas-backdrop"></div>
+				</div>
+			</div>
+	</body>
+	<script src="js/P2.js"></script>
+</html>

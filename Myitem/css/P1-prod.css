@@ -1,0 +1,193 @@
+.mui-bar-nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+}
+
+.search {
+	width: 50%;
+	margin-left: 5%;
+	top: 4%;
+}
+
+.search>input {
+	border-radius: 30px;
+	background-color: white;
+}
+
+.p1-1-header,
+.p1-2-header {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.topimg {
+	width: 100%;
+}
+
+.topimg>img {
+	width: 100%;
+}
+
+.price {
+	width: 93%;
+	margin: 15px auto;
+	padding: 10px 5px;
+	border-radius: 10px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.price>div {
+	padding: 0 10px;
+}
+
+.pricecount {
+	padding-top: 5px;
+}
+
+.pricecount>span:first-child {
+	color: #06B706;
+	font-size: xx-large;
+}
+
+.pricecount>span:last-child {
+	color: #C1C9C3;
+
+}
+
+.priceBtn>input {
+	margin-right: 10%;
+	font-size: xx-small;
+	height: 24px;
+	color: #FF8A00;
+	background-color: #FBD397;
+	border: 0;
+	border-radius: 30px;
+}
+
+.pric-detalis {
+	margin: 10px 0;
+}
+
+.pric-share {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pric-share>a {
+	color: #C1C9C3;
+}
+
+.mui-table-view {
+	border-radius: 10px;
+}
+
+.mui-table-view::before,
+.mui-table-view::after,
+.mui-table-view-cell::after {
+	height: 0;
+}
+
+.mui-navigate-right {
+	text-decoration: none;
+	color: #000000;
+}
+
+.mui-navigate-right:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+.mui-table-view-cell>div>span {
+	color: #C1C9C3;
+	font-size: smaller;
+}
+
+.dispatching,
+.ensure,
+.parameter {
+	margin-left: 5%;
+	font-weight: bolder;
+	font-size: smaller;
+	/* 	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	文字超出省略号显示无效，
+	因为这是span而不是div盒子，
+	用div盒子又会导致换行，
+	所以考虑把字体缩小以兼容手机大小
+*/
+}
+
+.dispatchingto {
+	/* 	margin-left: 10%; */
+	font-size: smaller;
+	color: #C1C9C3;
+}
+
+.prod-detals {
+	width: 93%;
+	margin: 15px auto;
+}
+
+.footer {
+	width: 100%;
+	bottom: 0;
+	/* 	全面屏手机需要设置一个margin-top,
+	否则这个盒子不会在最底部,
+	离最底部会有一定的距离
+	 */
+	margin-top: 22%;
+	position: sticky;
+	display: flex;
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+
+.callus,
+.like {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.callus>div,
+.like>div {
+	margin: auto;
+}
+
+.ft-txt {
+	color: #C1C9C3;
+	font-size: smaller;
+}
+
+.buy {
+	display: flex;
+	margin: auto 0;
+}
+
+.buy1>input,
+.buy2>input {
+	border: 0;
+	border-radius: 0;
+	color: white;
+}
+
+.buy1>input {
+	background-color: #8EF48E;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.buy2>input {
+	background-color: #06B706;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.buy1 {
+	margin-right: -1%;
+}

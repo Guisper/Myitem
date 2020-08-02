@@ -1,0 +1,109 @@
+.back {
+	position: absolute;
+	left: 5%;
+	top: 3%;
+
+}
+
+.icon-fanhui1:before {
+	font-size: x-large;
+	font-weight: bold;
+	color: #7e7e7e;
+}
+
+.login {
+	width: 100%;
+	position: absolute;
+	top: 20%;
+}
+
+.text {
+	padding: 10%;
+	font-size: xx-large;
+	font-weight: bold;
+	color: #17DF54;
+}
+
+.inputBox {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.number {
+	margin-top: 20px;
+}
+
+.password {
+	margin-top: 10px;
+}
+
+.number>div:first-child,
+.password>div:first-child {
+	font-size: smaller;
+	color: #929CAA;
+	padding: 5px 15px;
+}
+
+.number>div:last-child,
+.password>div:last-child {
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #C1C9C3;
+}
+
+.number>div:last-child>input,
+.password>div:last-child>input {
+	padding: 0;
+	background-color: #EFEFF4;
+	border: 0;
+	margin-bottom: 0;
+}
+
+.loginBtn {
+	width: 80%;
+	margin: 15% auto 0 auto;
+}
+
+.loginBtn>input {
+	width: 100%;
+	border-radius: 30px;
+	padding: 5% 0;
+	background-color: #17DF54;
+	color: #FFFFFF;
+}
+
+.forgetpassword {
+	margin-top: 10px;
+	text-align: center;
+	font-size: smaller;
+	color: #17DF54;
+}
+
+.register {
+	position: absolute;
+	top: 90%;
+	right: 15%;
+}
+
+.skip {
+	position: absolute;
+	top: 93%;
+	right: 15%;
+}
+
+.register>span,
+.skip>span {
+	font-size: small;
+}
+
+.register>span:first-child {
+	color: #AEAEC1;
+}
+
+.register>span:last-child {
+	color: #17DF54;
+}
+
+.skip>span {
+	color: #17DF54;
+}

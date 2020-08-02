@@ -1,0 +1,48 @@
+.p4-header {
+	width: 100%;
+}
+
+.headerBtn {
+	width: 100%;
+	padding: 30px 0 15px 0;
+}
+
+.headerBtn>input {
+	width: 45%;
+	background-color: #06B706;
+	font-size: larger;
+	font-weight: bold;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.mui-search {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.mui-search>input {
+	border-radius: 25px;
+}
+
+.settinglist {
+	width: 95%;
+	margin: 8% auto;
+}
+
+.mui-table-view {
+	border-radius: 10px;
+	font-weight: bolder;
+	font-size: smaller;
+}
+
+.mui-table-view-cell{
+	 padding: 12px 15px 12px 18px;
+}
+
+.mui-table-view:before,
+.mui-table-view:after,
+.mui-table-view-cell:before,
+.mui-table-view-cell:after {
+	display: none;
+}

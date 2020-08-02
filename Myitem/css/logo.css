@@ -1,0 +1,129 @@
+body {
+	background-color: #F7F7F7;
+}
+
+.logo {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translateX(-50%);
+
+}
+
+.logoimg {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.logoimg>img {
+	width: 100%;
+}
+
+.logotext {
+	width: 100%;
+	margin: 0 auto;
+	padding: 5% 0;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.logotext>span:first-child {
+	color: #17DF54;
+}
+
+.logotext>span:last-child {
+	color: #09B43D;
+}
+
+.loginBtn {
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	transform: translateX(-50%);
+	-webkit-animation: mymove 1.5s;
+	animation: mymove 1.5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+	0% {
+		bottom: -50%;
+	}
+
+	100% {
+		bottom: 5%;
+	}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+	0% {
+		bottom: -50%;
+	}
+
+	100% {
+		bottom: 5%;
+	}
+}
+
+.Btn1,
+.Btn2 {
+	width: 100%;
+	margin: 5% auto;
+}
+
+.Btn1>input,
+.Btn2>input {
+	width: 100%;
+	border-radius: 30px;
+	padding: 5% 0;
+
+}
+
+.Btn1>input {
+	background-color: #17DF54;
+	color: #FFFFFF;
+}
+
+.Btn2>input {
+	background-color: #FFFFFF;
+	color: #929CAA;
+	border: 0.5px solid #929CAA;
+}
+
+.skip{
+	position: absolute;
+	top: 3%;
+	right: 5%;
+	-webkit-animation: skiplogin 2s;
+	animation: skiplogin 2s;
+}
+
+.skip>span{
+	font-size: small;
+	color: #17DF54;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes skiplogin {
+	0% {
+		top: -50%;
+	}
+
+	100% {
+		top: 3%;
+	}
+}
+
+/* Standard syntax */
+@keyframes skiplogin {
+	0% {
+		top: -50%;
+	}
+
+	100% {
+		top: 3%;
+	}
+}
