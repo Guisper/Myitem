@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: springgreen;
+        }
+
+        tr {
+            display: flex;
+            flex-direction: column;
+        }
+
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            font-size: x-large;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr id="tr-01"></tr>
+    </table>
+</body>
+<script>
+    var hrefs = [
+        //第一次
+        [
+            './flies/王络的自我介绍.html',
+            './flies/周珂永.html',
+            './万迁 网络工程 第一次作业/自我介绍.html',
+            './于洋  网工 第一次作业/自我介绍.html',
+            './孙佳琪/自我介绍/index.html',
+            './罗钱的自我介绍/罗钱的自我介绍/自我介绍3.html',
+            './陆书颍/自我介绍.html',
+            './陆书颍/九九乘法表.html',
+            './韦彩娜/index.html',
+            './魏兴霖/index.html',
+            './万千/index.html',
+            './flies/张馨莹前端作业.html',
+            './何福川 计科三班 第一次作业/自我介绍.html',
+            './陈红全，物联网二班，自我介绍/index.html',
+            './田嘉楠物联网工程第一次作业/index.html'
+        ],
+        //第二次
+        []
+    ]
+
+    var oTr1 = document.getElementById('tr-01')
+    var newTd1
+    for (let i = 0; i < hrefs[0].length; i++) {
+        newTd1 = document.createElement("td")
+        oTr1.appendChild(newTd1)
+        newTd1.classList.add('td-01')
+    }
+
+    var oTds = document.querySelectorAll('td');
+    for (let j = 0; j < hrefs[0].length; j++) {
+        oTds[j].innerText = hrefs[0][j]
+        oTds[j].addEventListener('click', function () {
+            window.open(hrefs[0][j])
+            this.style.color = '#AAA'
+        })
+    }
+</script>
+
+</html>

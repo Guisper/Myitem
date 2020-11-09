@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#title{
+    font-weight: lighter;
+}
+.cyellow{
+    color:pink;
+}
+
+body{
+    border:20px pink solid;
+    border-radius: 1rem;
+}
