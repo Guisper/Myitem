@@ -1,0 +1,422 @@
+.mineSearch {
+    background-color: #fff;
+}
+
+.mineShanLogo img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mineWenChuang p:first-child {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.mineWenChuang p:nth-child(2) {
+    margin-left: -10px;
+    color: rgb(71, 68, 68);
+    margin-top: 30px;
+}
+
+.mineDingDan {
+    width: 100%;
+    height: 120px;
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    display: flex;
+}
+
+.mineDingDan .mineDingDanimg1 {
+    width: 57px;
+    height: 57px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.fukuan {
+    background-color: #26a8fc;
+}
+
+.fahuo {
+    background-color: #31ce99;
+}
+
+.shouhuo {
+    background-color: #ffa252;
+}
+
+.pingjia {
+    background-color: #fd6190;
+}
+
+.tuikuan {
+    background-color: #dd4254;
+}
+
+.mineDingDan span {
+    font-size: 30px;
+    color: #fff;
+}
+
+.mineDingDan p:first-child {
+    /* margin-top: 10px; */
+    margin: 20px auto;
+}
+
+.mineDingDan p:last-child {
+    font-size: 14px;
+    color: #000;
+    margin-top: 25px;
+}
+
+.tuikuan p:last-child {
+    margin-left: -5px;
+}
+
+.mineMain {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #fff;
+    margin-top: 12px;
+    background-color: #fff;
+}
+
+.mineFooter {
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(243, 240, 240);
+    background-color: rgb(243, 240, 240);
+}
+
+.mineFooter1 {
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 12px;
+}
+
+.mine_shanrenLeft {
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #0b9284;
+    margin-top: 12px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0b9284;
+    margin-left: -2px;
+}
+
+.mine_shanrenLeft p {
+    color: #fff;
+    margin-top: 7px;
+}
+
+.mineFooter2 {
+    width: 100%;
+    height: 260px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.mineFooter2 p {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-family: inherit;
+	margin-left: 30px;
+}
+
+.mineFooter2 p:first-child {
+    margin-top: 20px;
+}
+
+.headerA {
+    color: #000 !important;
+}
+
+.companyUs {
+    width: 100%;
+    height: 66px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 12px;
+}
+
+.companyUs1 {
+    width: 100%;
+    height: 80px;
+    border: 1px solid rgb(224, 221, 221);
+    background-color: rgb(236, 233, 233);
+    margin-top: 50px;
+}
+
+.companyShan {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #fff;
+}
+
+.companyShan img {
+    width: 100%;
+    height: 100%;
+}
+
+.companyMiaoji {
+    width: 100%;
+    height: 170px;
+    border: 1px solid #fff;
+    background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.companyMiaoji p:first-child {
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.companyMiaoji p:last-child {
+    letter-spacing: 2px;
+    color: rgb(112, 112, 112);
+    margin-top: 20px;
+}
+
+.companyTuandui {
+    width: 100%;
+    height: 670px;
+    border: 1px solid rgb(236, 233, 233);
+    background-color: rgb(236, 233, 233);
+}
+
+.tuandui1 {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
+
+.tuanduiImg {
+    width: 35%;
+    height: 186px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.tuanduijieshao {
+    width: 60%;
+    height: 186px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.tuanduiImg img {
+    width: 100%;
+    height: 95%;
+}
+
+.tuandui {
+    width: 100%;
+    height: 670px;
+    border-top: 1px solid #ccc;
+    background-color: rgb(247, 243, 243);
+}
+
+.tuanduijieshao p:first-child {
+    color: #000;
+    font-size: 20px;
+}
+
+.tuanduijieshao p:last-child {
+    line-height: 28px;
+}
+
+/* 产品分类 */
+.goodsFenlei {
+    width: 100%;
+    height: 616px;
+    background-color: #fff;
+    border: 1px solid rgb(238, 234, 234);
+    margin-top: 49px;
+    display: flex;
+}
+
+.fenlei1 {
+    width: 120px;
+    height: 140px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.fenlei1 img {
+    width: 80px;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.fenlei1 p {
+    margin-top: 16px;
+}
+
+.wenjuHeader1 {
+    width: 100%;
+    height: 67px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-top: 63px;
+}
+
+.wenjuHeader {
+    width: 100%;
+    height: 667px;
+    background-color: rgb(240, 239, 239);
+    border: 1px solid rgb(240, 239, 239);
+}
+
+.wenjuHeader2 {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border-top: 1px solid rgb(240, 239, 239);
+    padding-top: 20px;
+}
+
+.wenjuHeader2 span {
+    margin-left: 45px;
+    color: #000;
+}
+
+.wenjuHeader2 span:first-child {
+    /* display: block; */
+    margin-left: 20px;
+    color: #df0000;
+}
+
+.wenjuLike {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-top: 1px solid rgb(233, 231, 231);
+    display: flex;
+}
+
+.wenjuLike img {
+    width: 130px;
+    height: 78%;
+    margin: 12px auto auto 12px;
+}
+
+.wenjuLike1 img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.wenjuLike2 P:first-child {
+    margin-top: 15px;
+    color: #000000;
+}
+
+.wenjuLike2 P:nth-child(2) {
+    color: red;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.wenjuLike2 P:nth-child(3) {
+    color: #ffa252;
+}
+
+.wenjuLike2 p {
+    color: rgb(107, 107, 107);
+}
+
+.wenjuLike3 p {
+    margin-top: 72px;
+    margin-left: 60px;
+    color: #ffa252;
+    /* font-size: 15px; */
+}
+.wenjuLike33 p{
+    margin-top: 72px;
+    margin-left: 50px;
+    color: #ffa252;
+}
+.wenjuNotebook img {
+    width: 100px;
+    height: 88%;
+}
+.person11{
+    margin-left:10px ;
+}
+.person1 {
+    margin-left: 2px;
+    margin-top: 25px;
+}
+.person3{
+    margin-top: 25px;
+}
+.wenjuNotebook {
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    border-top: 1px solid rgb(235, 230, 230);
+    display: flex;
+    padding-top: 10px;
+}
+
+.personal img {
+    width: 140px;
+    height: 115px;
+    margin-left: 10px;
+}
+
+.wenjuFooter {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.wenjuFooter .wenjuFooterYema {
+    width: 110px;
+    height: 30%;
+    border: 1px solid #fff;
+    margin: 20px auto;
+}
+
+.wenjuFooterYema p {
+    margin-top: -22px;
+    margin-left: 30px;
+}
+
+.sirenFooter {
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid rgb(226, 225, 225);
+    background-color: #fff;
+}
+
+.sirenFooter1 {
+    height: 30px;
+    width: 150px;
+    border: 1px solid #fff;
+    margin: 120px auto;
+}
+
+.sirenFooter1 p {
+    font-size: 18px;
+}
+

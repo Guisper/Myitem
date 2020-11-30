@@ -1,0 +1,84 @@
+.chatBox {
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.chatAdva>img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.chatBody {
+	width: 100%;
+	height: 70%;
+	overflow: scroll;
+	margin-top: 60px;
+}
+
+.chatMsg>div {
+	max-width: 100%;
+	padding: 15px;
+	margin: 0 5px;
+	border-radius: 15px;
+	background-color: #E6E6E6;
+}
+
+.lC {
+	text-align: left;
+	float: left;
+}
+
+.rC {
+	text-align: right;
+	float: right;
+}
+
+.rC>.chatMsg>div {
+	color: white;
+	background-color: #AD181E;
+}
+
+.msgBox {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	bottom: 75px;
+}
+
+.msgBox>div:first-child {
+	width: 80%;
+}
+
+.msgBox>div:first-child>input {
+	width: 100%;
+	padding: 20px;
+	margin: 0 5px;
+	border-radius: 30px;
+}
+
+.msgBox>div:last-child {
+	width: 15%;
+	margin: 0 15px;
+	transform: translateY(-10%);
+}
+
+#myMsg {
+	color: #000000;
+}
+
+.mui-action-back {
+	transform: translate(-40%, -25%);
+	font-size: 2.5rem;
+	color: #AD181E!important;
+}
+
+.back .mui-action-back {
+	transform: translate(0, 10%)!important;
+}
+
+#uploadImg{
+	transform: translateY(15%);
+}

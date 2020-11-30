@@ -1,0 +1,1238 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>蓉城之旅</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<script src="./work/js/mui.min.js"></script>
+	<script src="./work/js/mine.js"></script>
+	<!-- 引入字体图标 -->
+	<link rel="stylesheet" href="./work/css/iconfont.css">
+	<!--标准mui.css-->
+	<link rel="stylesheet" href="./work/css/mui.min.css">
+	<!--App自定义的css-->
+	<link rel="stylesheet" type="text/css" href="./work/css/app.css" />
+	<link rel="stylesheet" type="text/css" href="./work/css/shouye.css" />
+	<link rel="stylesheet" type="text/css" href="./work/css/shequ.css" />
+	<link rel="stylesheet" type="text/css" href="./work/css/mine.css" />
+	<link rel="stylesheet" href="./work/css/scan.css">
+	<link rel="stylesheet" href="./work/css/chat.css">
+</head>
+
+<body>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item " href="#tabbar-with-kefu">
+			<span class=" mui-icon iconfont icon-lianxikefu icon-style"></span><br>
+			<span class="mui-tab-label">联系客服</span>
+		</a>
+		<a class="mui-tab-item" href="#tabbar-with-community">
+			<span class=" mui-icon iconfont icon-wodeshequ icon-style"></span><br>
+			<span class="mui-tab-label">我的社区</span>
+		</a>
+
+		<a class="mui-tab-item" href="#tabbar-with-scan">
+			<p class="scan">
+				<span class="mui-icon iconfont icon-fangdajing1 icon-scan"></span><br>
+			</p>
+			<p class="mui-tab-label pScan">扫一扫</p>
+		</a>
+
+		<a class="mui-tab-item mui-active" href="#tabbar">
+			<span class=" mui-icon iconfont icon-shouye icon-style"></span><br>
+			<span class="mui-tab-label">返回首页</span>
+		</a>
+		<a class="mui-tab-item " href="#tabbar-with-mine">
+			<span class=" mui-icon iconfont icon-ren icon-style"></span><br>
+			<span class="mui-tab-label">个人中心</span>
+		</a>
+	</nav>
+	<div class="mui-content">
+		<!-- 联系客服 -->
+		<div id="tabbar-with-kefu" class="mui-control-content ">
+			<div class="chatBox">
+				<div class="headerBox">
+					<div class="back">
+						<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+							href="#tabbar"></a>
+						<span class="iconfont"></span>
+					</div>
+					<div class="localImg" style="top: 10px;">
+						<img src="./work/img/setting.png" alt="">
+					</div>
+				</div>
+				<div class="chatBody">
+					<table>
+						<tbody id="toChat">
+							<tr class="lC">
+								<td class="chatAdva"><img src="./work/img/adva.png"></td>
+								<td class="chatMsg">
+									<div>你好，我是助理小蓉，请问您需要什么帮助?</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="msgBox">
+					<div>
+						<input id="myMsg" type="text">
+					</div>
+					<div id="sendMsg">
+						<img src="./work/img/send.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 我的社区 -->
+		<div id="tabbar-with-community" class="mui-control-content ">
+			<div class="Search">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="Communitycontent">
+				<img src="./work/img/1.png" alt="">
+				<img src="./work/img/2.png" alt="">
+				<img src="./work/img/3.png" alt="">
+			</div>
+			<div class="divideBox"></div>
+			<div class="CmainBox">
+				<p>每日推荐</p>
+				<div class="cmbox">
+					<div class="cmct">
+						<a href="https://www.mafengwo.cn/poi/7795.html">
+							<img src="./work/img/4.png">
+							<p>九眼桥</p>
+						</a>
+					</div>
+					<div class="cmct">
+						<a href="https://www.mafengwo.cn/i/20085661.html">
+							<img src="./work/img/5.png">
+							<p>天府塔</p>
+						</a>
+					</div>
+				</div>
+				<div class="cmbox">
+					<div class="cmct">
+						<a href="https://www.mafengwo.cn/poi/1241.html">
+							<img src="./work/img/6.png">
+							<p>武侯祠</p>
+						</a>
+					</div>
+					<div class="cmct">
+						<a href="http://www.mafengwo.cn/gonglve/ziyouxing/315332.html">
+							<img src="./work/img/7.png">
+							<p>熊猫基地</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="CmainBox">
+				<p>旅游攻略</p>
+				<div class="glbox" onclick="window.open('https://www.mafengwo.cn/gonglve/ziyouxing/161785.html')">
+					<p>你想要的成都全攻略，好耍不重样</p>
+					<span>成都，这座自古以来的“天府之国”也用最贴心，最热情的方式，迎接着世界各地的游客，让大家深深爱上这座“来了就不想再离开的城市”。</span>
+				</div>
+				<div class="glbox" onclick="window.open('https://www.mafengwo.cn/gonglve/ziyouxing/92446.html')">
+					<p>成都美食地图｜城市的另种打开方式</p>
+					<span>成都人骨子里就有一种超然物外的闲适，慢而不懒，任世界纷扰，我自有自己的节奏，在爱玩的年龄痛快去玩，过最让内心舒适的生活。</span>
+				</div>
+				<div class="glbox" onclick="window.open('https://www.mafengwo.cn/gonglve/ziyouxing/576.html')">
+					<p>成都出发，峨眉山乐山玩乐全攻略</p>
+					<span>峨眉山有四绝：日出、云海、佛光、圣灯，春有姹紫嫣红杜鹃、夏是避暑胜地、秋赏绚烂红叶、冬有冰雪梦境，每个季节都有其独特的一面。</span>
+				</div>
+				<div class="glbox" onclick="window.open('https://www.mafengwo.cn/gonglve/ziyouxing/5530.html')">
+					<p>来成都要逛春熙路，到底怎么逛？</p>
+					<span>春熙路不仅是春熙路，更是包括了附近的IFS、太古里、晶融汇在内的成都最繁华的综合性商业圈。</span>
+				</div>
+			</div>
+			<div class="CmainBox">
+				<p>特价预约</p>
+				<div class="yybox" onclick="window.open('http://www.mafengwo.cn/poi/5416.html')">
+					<img src="./work/img/yy1.jpg" alt="">
+					<p>成都人民公园</p>
+					<span>花展期间:12人民币<br>&nbsp;&nbsp;&nbsp;重大节庆:8人民币 (1月1日至12月31日 周一至周日)
+				</div>
+				<div class="yybox" onclick="window.open('https://www.mafengwo.cn/poi/13732.html')">
+					<img src="./work/img/yy2.jpg" alt="">
+					<p>都江堰景区</p>
+					<span>前山门票:80人民币 (1月1日-12月31日 周一至周日)<br>&nbsp;&nbsp;&nbsp;后山门票:20人民币 (1月1日-12月31日 周一至周日)
+				</div>
+				<div class="yybox" onclick="window.open('https://www.mafengwo.cn/poi/5015.html')">
+					<img src="./work/img/yy3.jpg" alt="">
+					<p>成都大熊猫繁育研究基地</p>
+					<span>成人票:55人民币/半票27人民币<br>&nbsp;&nbsp;&nbsp;半票:6周岁-18周岁未成年人
+				</div>
+			</div>
+
+		</div>
+		<!-- 扫一扫 -->
+		<div id="tabbar-with-scan" class="mui-control-content">
+			<div class="scanBox">
+				<div class="headerBox">
+					<div class="back">
+						<a class="mui-action-back mui-tab-item  mui-icon mui-icon-left-nav mui-pull-left"
+							href="#tabbar"></a>
+					</div>
+					<div class="localImg">
+						<input type="file" id="chooseImg">
+						<img id="uploadImg" src="./work/img/localimg.png" alt="">
+					</div>
+				</div>
+				<div class="scanIcon">
+					<img src="./work/img/scan.png" alt="">
+				</div>
+				<div class="bottomBox">
+					<div class="p1">
+						<svg t="1606547421146" class="icon" viewBox="0 0 1024 1024" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" p-id="4635" width="48" height="48">
+							<path
+								d="M253.49207327 764.0232466v-44.95312162 17.80539293c0.87927866 15.16755693 13.40899961 27.14772869 28.79637618 27.14772869h-28.79637618zM90.93543056 927.78889746v-44.9531216 17.80539289c0.87927866 15.16755693 13.40899961 27.14772869 28.79637618 27.14772871h-28.79637618zM772.0466644 763.91333677h-44.95312161H745.00884553c15.16755693-0.87927866 27.14772869-13.40899961 27.1477287-28.7963762v28.7963762zM932.84474979 928.22853679H887.89162816h17.80539292c15.16755693-0.87927866 27.14772869-13.40899961 27.14772871-28.79637617v28.79637617zM771.27729556 246.56775381v44.95312161-17.80539292c-0.87927866-15.16755693-13.40899961-27.14772869-28.79637617-27.14772869h28.79637617zM932.18529078 86.53903725v44.95312159-17.80539289c-0.87927866-15.16755693-13.40899961-27.14772869-28.7963762-27.1477287h28.7963762zM254.15153227 246.56775381h44.95312161-17.80539292c-15.16755693 0.87927866-27.14772869 13.40899961-27.14772869 28.79637618v-28.79637618zM91.15525021 86.64894709H136.10837184h-17.80539292c-15.16755693 0.87927866-27.14772869 13.40899961-27.14772871 28.79637617V86.64894709z"
+								fill="#e6e6e6" p-id="4636"></path>
+							<path
+								d="M860.96371912 781.27909034V222.1677709c-3.73693431-36.16033498-33.30267934-64.62698169-69.90265364-66.82517833h-556.14375396c-39.34772014 2.19819665-70.56211266 34.841417-70.56211266 74.73868631v554.27528679c2.96756547 36.49006449 31.98376134 65.50626036 68.47382584 68.47382582h559.66086858c37.25943332-3.18738515 66.93508817-33.74231867 68.47382584-71.55130115z m-606.70227702-18.57476174V246.78757347h516.68612397v515.91675513H254.2614421z"
+								fill="#e6e6e6" p-id="4637"></path>
+							<path
+								d="M243.38036865-2.92756666H67.634546C32.24357985 1.02918733 4.21657249 29.93547336 1.5787365 65.76607885v173.10798665c0 24.83962222 20.1134994 45.06303145 45.06303143 45.06303146 24.83962222 0 45.06303145-20.1134994 45.06303145-45.06303146V87.08858641h151.78547909c24.83962222 0 45.06303145-20.1134994 45.06303146-45.06303144-0.21981966-24.83962222-20.33331907-44.95312161-45.17294128-44.95312163zM243.38036865 927.01952863H91.59488956v-151.67556926c0-24.83962222-20.1134994-45.06303145-45.06303144-45.06303143-24.83962222 0-45.06303145 20.1134994-45.06303145 45.06303143v167.1728557c0 39.34772014 30.33511385 71.55130115 68.80355534 74.62877647h172.88816697c24.83962222 0 45.06303145-20.1134994 45.06303144-45.06303146 0.10990983-24.83962222-20.00358958-45.06303145-44.84321177-45.06303145zM1021.43207501 947.79248703V775.34395937c0-24.83962222-20.1134994-45.06303145-45.06303144-45.06303143-24.83962222 0-45.06303145 20.1134994-45.06303144 45.06303143v151.78547911H779.7403527c-24.83962222 0-45.06303145 20.1134994-45.06303146 45.06303144 0 24.83962222 20.1134994 45.06303145 45.06303146 45.06303144h173.21789647c36.70988416-3.07747532 65.94589967-32.64322034 68.47382584-69.46301433zM949.22131485-2.92756666H779.7403527c-24.83962222 0-45.06303145 20.1134994-45.06303146 45.06303145 0 24.83962222 20.1134994 45.06303145 45.06303146 45.06303145h151.78547908v151.7854791c0 24.83962222 20.1134994 45.06303145 45.06303145 45.06303144 24.83962222 0 45.06303145-20.1134994 45.06303144-45.06303144V64.55707069c-3.73693431-37.14952349-34.62159733-66.38553901-72.43057982-67.48463735z"
+								fill="#e6e6e6" p-id="4638"></path>
+						</svg>
+					</div>
+					<div class="p2">
+						<svg t="1606547630122" class="icon" viewBox="0 0 1035 1024" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" p-id="8496" width="48" height="48">
+							<path
+								d="M393.423068 899.337835v-95.74667h43.713674v95.74667l337.60276-168.822656a21.851518 21.851518 0 0 0 12.085357-19.54296V541.266566h43.713674V710.972219a65.586469 65.586469 0 0 1-36.234795 58.639517l-349.688117 174.854697a65.575831 65.575831 0 0 1-58.671432 0L36.234795 769.611736A65.575831 65.575831 0 0 1 0 710.972219V541.266566h43.713674V710.972219a21.862156 21.862156 0 0 0 12.085358 19.54296zM437.136742 52.022358v95.74667h-43.713674v-95.74667L55.799032 220.887568A21.862156 21.862156 0 0 0 43.713674 240.430528v169.705653H0V240.430528a65.565192 65.565192 0 0 1 36.234795-58.61824L385.944189 6.936314a65.543915 65.543915 0 0 1 58.671432 0L794.325015 181.812288a65.586469 65.586469 0 0 1 36.234796 58.639517v169.684376h-43.713675V240.430528a21.851518 21.851518 0 0 0-12.106634-19.54296zM294.942299 323.793962h18.596131l136.928377 304.899952h-50.532965l-32.10705-74.310055H236.82407l-34.096453 74.310055h-49.735076z m54.075591 187.237933l-45.39456-104.044715-47.564818 104.044715z m212.770379-12.681115l94.746649 130.396327h-56.426704l-87.384795-125.289838h-8.32996v125.236645h-46.181811V322.698194h54.096869q60.639558 0 87.597565 22.798346 29.787853 25.351591 29.724022 67.02267 0 32.458121-18.628047 55.884139t-49.149957 29.904877z m-57.448003-35.107112h14.691795q65.575831 0 65.597108-50.13934 0-46.9797-63.831114-47.000976H504.372182v97.129677z m0 0"
+								p-id="8497" fill="#d81e06"></path>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 首页 -->
+		<div id="tabbar" class="mui-control-content mui-active">
+			<div class="Img">
+				<img class="img1" src="./work/img/headpic1.jpg" alt="">
+				<img class="img2" src="./work/img/headpic2.jpg" alt="">
+			</div>
+			<div class="shouyeSearch">
+				<span class="iconfont icon-caidan1"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="footer">
+				<div class="circle1"></div>
+				<div class="circle2"></div>
+			</div>
+			<div class="sigongge">
+				<div class="sigongge_main1">
+					<div class="main11">
+						<a class="mui-tab-item" href="#tabbar-with-company">
+							<div class="main111">
+								<p>品 牌 介 绍</p>
+								<p>ABOUT US</p>
+								<p><span class="iconfont icon-yemian"></span></p>
+							</div>
+						</a>
+					</div>
+					<div class="main12">
+						<a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">
+							<div class="main111">
+								<p>蓉 都 商 城</p>
+								<p>STORE</p>
+								<p><span class="iconfont icon-11"></span></p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="sigongge_main2">
+					<div class="main11">
+						<a class="mui-tab-item" href="#tabbar-with-scan">
+							<div class="main111">
+								<p>产 品 交 互</p>
+								<p>ERACTION</p>
+								<p><span class="iconfont icon-shizhong"></span></p>
+							</div>
+						</a>
+					</div>
+					<div class="main12">
+						<a class="mui-tab-item" href="#tabbar-with-community">
+							<div class="main111">
+								<p>旅 游 社 区</p>
+								<p>COMMUNITY</p>
+								<p><span class="iconfont icon-xueshimao"></span></p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="lunbo">
+				<div class="lunbo1"><img src="./work/img/lunbo2.jpg" alt=""></div>
+				<div class="lunbo2"><img src="./work/img/lunbo1.jpg" alt=""></div>
+			</div>
+			<div class="circleFooter">
+				<div class="circle1Footer circleFooter1"></div>
+				<div class="circle1Footer circle2Footer"></div>
+			</div>
+		</div>
+		<!-- 公司概况 -->
+		<div id="tabbar-with-company" class="mui-control-content">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="companyUs1">
+				<div class="companyUs">
+					<div>
+						<div class="shanrenLeft">
+							<p>关 于 我 们</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="companyShan">
+				<img src="./work/img/c-logo.png" alt="" width="60%">
+			</div>
+			<div class="companyMiaoji">
+				<p></p>
+				<p>“蓉都之旅——云上的文旅”是一个打造“新文创”品牌的项目。品牌从文旅产品入手，以传统文化和成都特色旅游为内容基调，根据不同人群打造出线下与线上平台相交互的物联网模式及成都旅游“云”体验，设计语言来增加产品的趣味性。
+				</p>
+			</div>
+			<div class="companyTuandui">
+				<div class="companyUs">
+					<div>
+						<div class="shanrenLeft">
+							<p>团 队 精 英</p>
+						</div>
+					</div>
+				</div>
+				<div class="tuandui">
+					<div class="tuandui1">
+						<div class="tuanduiImg">
+							<img src="./work/img/man1.png" alt="">
+						</div>
+						<div class="tuanduijieshao">
+							<p>宋代雨</p>
+							<p>团队项目的负责人。熟 练 java,web开发，负责项目网页端后台的开发
+								,网页详细设计文档的编写,调节团队
+								分工合作。获SYB创业培训合格证,获国家级奖项2项，
+								省级奖项10项</p>
+						</div>
+					</div>
+					<div class="tuandui1">
+						<div class="tuanduiImg">
+							<img src="./work/img/BLwomen2.png" alt="">
+						</div>
+						<div class="tuanduijieshao">
+							<p>伍克艳</p>
+							<p>团队项目的前端开发者。熟练web前端开发,负责项目网页端前端的开发。
+								获2018-2019国家励志奖学金,获第九届创新创业以及创意省级三等奖。</p>
+						</div>
+					</div>
+					<div class="tuandui1">
+						<div class="tuanduiImg">
+							<img src="./work/img/BLwomen3.png" alt="">
+						</div>
+						<div class="tuanduijieshao">
+							<p>钟倩云</p>
+							<p>负责团队项目商业计划书，PPT制作，项目答辩及文档撰写整理等工作。曾获第十一届心理形象大使选拔赛优秀奖及人气奖、
+								四川省大学生健美健身体能大赛体育道德风尚奖</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- 山人商城 -->
+		<div id="tabbar-with-goodsCity" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="goodsFenlei">
+				<a class="mui-tab-item " href="#tabbar-with-shanren_wenju">
+					<div class="fenlei1"><img src="./work/img/c-logo.png" alt="">
+						<p>文具</p>
+					</div>
+				</a>
+				<a class="mui-tab-item " href="#tabbar-with-shanren_siren">
+					<div class="fenlei2 fenlei1"><img src="./work/img/c-logo.png" alt="">
+						<p>私人...</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 礼品盒 -->
+		<div id="tabbar-with-shanren_lipinhe" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="mui-content" style="margin-top: 50px;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-collapse mui-active">
+							<a href="#" class="mui-navigate-right" style="color: #000000!important;">商品分类</a>
+							<div class="mui-collapse-content xuanzhong">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">礼品盒</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_mxp">明信片</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_rili">日历</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sbd">鼠标垫</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sjk">手机壳</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_live">生活-家居</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_qita">其他</a></p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+				<div class="wenjuLike">
+					<div class="wenjuLike1"> <img src="./work/img/lipin/s-1.png" alt=""></div>
+					<div class="wenjuLike2">
+						<p>名称：小礼品盒</p>
+						<p>价格：30</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：52/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="work/img/lipin/s-2.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：收纳盒</p>
+						<p>价格：35</p>
+						<p>数量：511</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：27/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/lipin/s-38.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：铅笔&盒</p>
+						<p>价格：32</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：34/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/lipin/s-39.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：钢笔礼品盒</p>
+						<p>价格：28</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：22/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 明信片 -->
+		<div id="tabbar-with-shanren_mxp" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="mui-content" style="margin-top: 50px;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-collapse mui-active">
+							<a href="#" class="mui-navigate-right" style="color: #000000!important;">商品分类</a>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">礼品盒</a></p>
+							</div>
+							<div class="mui-collapse-content xuanzhong">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_mxp">明信片</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_rili">日历</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sbd">鼠标垫</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sjk">手机壳</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_live">生活-家居</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_qita">其他</a></p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1"> <img src="./work/img/mxp/s-11.png" alt=""></div>
+					<div class="wenjuLike2">
+						<p>名称：明信片</p>
+						<p>价格：9.9</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：433/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="work/img/mxp/s-12.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：明信片</p>
+						<p>价格：12.5</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：566/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/mxp/s-13.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：明信片</p>
+						<p>价格：12.5</p>
+						<p>数量：150</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：600/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/mxp/s-14.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：明信片</p>
+						<p>价格：12</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：666/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/mxp/s-15.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：明信片</p>
+						<p>价格：8</p>
+						<p>数量：200</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：812/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 日历 -->
+		<div id="tabbar-with-shanren_rili" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="mui-content" style="margin-top: 50px;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-collapse mui-active">
+							<a href="#" class="mui-navigate-right" style="color: #000000!important;">商品分类</a>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">礼品盒</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_mxp">明信片</a></p>
+							</div>
+							<div class="mui-collapse-content xuanzhong">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_rili">日历</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sbd">鼠标垫</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sjk">手机壳</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_live">生活-家居</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_qita">其他</a></p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+				<div class="wenjuLike">
+					<div class="wenjuLike1"> <img src="./work/img/rili/s-3.png" alt=""></div>
+					<div class="wenjuLike2">
+						<p>名称：台历</p>
+						<p>价格：25</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：41/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="work/img/rili/s-4.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：小熊日历</p>
+						<p>价格：35</p>
+						<p>数量：312</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：32/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/rili/s-5.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：小熊日历</p>
+						<p>价格：35</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：32/月</p>
+					</div>
+				</div>
+
+
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 鼠标垫 -->
+		<div id="tabbar-with-shanren_sbd" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="mui-content" style="margin-top: 50px;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-collapse mui-active">
+							<a href="#" class="mui-navigate-right" style="color: #000000!important;">商品分类</a>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">礼品盒</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_mxp">明信片</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_rili">日历</a></p>
+							</div>
+							<div class="mui-collapse-content xuanzhong">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sbd">鼠标垫</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sjk">手机壳</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_live">生活-家居</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_qita">其他</a></p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="work/img/sbd/s-8.jpg" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：可爱鼠标垫</p>
+						<p>价格：35</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：52/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/sbd/s-9.jpg" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：熊猫鼠标垫</p>
+						<p>价格：40</p>
+						<p>数量：230</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：38/月</p>
+					</div>
+				</div>
+
+
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 手机壳 -->
+		<div id="tabbar-with-shanren_sjk" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="mui-content" style="margin-top: 50px;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-collapse mui-active">
+							<a href="#" class="mui-navigate-right" style="color: #000000!important;">商品分类</a>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">礼品盒</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_mxp">明信片</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_rili">日历</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sbd">鼠标垫</a></p>
+							</div>
+							<div class="mui-collapse-content xuanzhong">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sjk">手机壳</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_live">生活-家居</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_qita">其他</a></p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1"> <img src="./work/img/sjk/s-16.jpg" alt=""></div>
+					<div class="wenjuLike2">
+						<p>名称：火锅熊猫款</p>
+						<p>价格：25</p>
+						<p>数量：213</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：55/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="work/img/sjk/s-17.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：蓉都之旅款</p>
+						<p>价格：25</p>
+						<p>数量：235</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：52/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/sjk/s-18.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：可爱熊猫款</p>
+						<p>价格：25</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：72/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/sjk/s-19.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：憨厚熊猫款</p>
+						<p>价格：25</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：46/月</p>
+					</div>
+				</div>
+
+
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 生活-家居 -->
+		<div id="tabbar-with-shanren_live" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="mui-content" style="margin-top: 50px;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-collapse mui-active">
+							<a href="#" class="mui-navigate-right" style="color: #000000!important;">商品分类</a>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">礼品盒</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_mxp">明信片</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_rili">日历</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sbd">鼠标垫</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sjk">手机壳</a></p>
+							</div>
+							<div class="mui-collapse-content xuanzhong">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_live">生活-家居</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_qita">其他</a></p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1"> <img src="./work/img/live/s-20.png" alt=""></div>
+					<div class="wenjuLike2">
+						<p>名称：抱枕</p>
+						<p>价格：66</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：60/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="work/img/live/s-21.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：抱枕</p>
+						<p>价格：52</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：39/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/live/s-22.jpg" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：手提包</p>
+						<p>价格：12</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：56/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/live/s-23.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：帆布包</p>
+						<p>价格：12</p>
+						<p>数量：557</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：65/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/live/s-24.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：棒球帽</p>
+						<p>价格：20</p>
+						<p>数量：316</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：46/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/live/s-25.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：棒球帽</p>
+						<p>价格：25</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：68/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/live/s-32.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：雨伞</p>
+						<p>价格：39</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：39/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/live/s-33.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：雨伞</p>
+						<p>价格：39</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：55/月</p>
+					</div>
+				</div>
+
+
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 其他 -->
+		<div id="tabbar-with-shanren_qita" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="mui-content" style="margin-top: 50px;">
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell mui-collapse mui-active">
+							<a href="#" class="mui-navigate-right" style="color: #000000!important;">商品分类</a>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_lipinhe">礼品盒</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_mxp">明信片</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_rili">日历</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sbd">鼠标垫</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_sjk">手机壳</a></p>
+							</div>
+							<div class="mui-collapse-content">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_live">生活-家居</a></p>
+							</div>
+							<div class="mui-collapse-content xuanzhong">
+								<p><a class="mui-tab-item" href="#tabbar-with-shanren_qita">其他</a></p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1"> <img src="./work/img/qita/s-30.png" alt=""></div>
+					<div class="wenjuLike2">
+						<p>名称：火锅益智拼图</p>
+						<p>价格：18</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：26/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="work/img/qita/s-31.jpg" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：天府大道拼图</p>
+						<p>价格：18</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：33/月</p>
+					</div>
+				</div>
+
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/qita/s-35.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：挂绳</p>
+						<p>价格：9.9</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：32/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/qita/s-40.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：笔记本</p>
+						<p>价格：16</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：53/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike1 wenjuNotebook1"> <img src="./work/img/qita/s-6.png" alt=""></div>
+					<div class="wenjuLike2 wenjuNotebook2">
+						<p>名称：饰带</p>
+						<p>价格：10.5</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：27/月</p>
+					</div>
+				</div>
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 私人 -->
+		<div id="tabbar-with-shanren_siren" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="wenjuHeader">
+				<div class="wenjuHeader1">
+					<div class="shanrenLeft">
+						<p>私 人 定 制</p>
+					</div>
+				</div>
+				<div class="wenjuHeader2">
+					<span>名称<i class="iconfont icon-iconfont-left"></i></span>
+					<span>时间</span>
+					<span>价格</span>
+					<span>筛选 <i class="iconfont icon-11"></i></span>
+				</div>
+				<div class="wenjuLike">
+					<div class="wenjuLike1"> <img src="./work/img/box.png" alt=""></div>
+					<div class="wenjuLike2 person11">
+						<p>名称：礼盒</p>
+						<p>价格：9.9</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike3">
+						<p>销量：600/月</p>
+					</div>
+				</div>
+				<div class="wenjuNotebook">
+					<div class="wenjuLike2 person1 ">
+						<p>名称：笔记本</p>
+						<p>价格：9.9</p>
+						<p>数量：300</p>
+					</div>
+					<div class="wenjuLike33 person3">
+						<p>销量：600/月</p>
+					</div>
+				</div>
+				<div class="wenjuFooter">
+					<div class="wenjuFooterYema">
+						<i class="iconfont icon-fanhuizuojiantouxiangzuoshangyibuxianxing"></i>
+						<p><span>1</span> / 1</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 个人中心 -->
+		<div id="tabbar-with-mine" class="mui-control-content ">
+			<div class="Search mineSearch">
+				<a class="mui-action-back mui-tab-item  mui-icon mui-active mui-icon-left-nav mui-pull-left headerA "
+					href="#tabbar"></a>
+				<span class="iconfont"></span>
+				<div class="mui-input-row mui-search">
+					<input type="search" style="color:#000;" class="mui-input-clear" placeholder="搜索">
+				</div>
+			</div>
+			<div class="shanrenShe">
+				<div class="shequ">
+					<div class="hanfuShe mineShanLogo">
+						<img src="./work/img/adva.png" alt="">
+					</div>
+					<div class="chuanjushe hanfuShe mineWenChuang">
+						<p>蓉都之旅</p>
+						<p>账号：0000001</p>
+					</div>
+				</div>
+				<div class="mineMain">
+					<!-- 轮播 -->
+					<div class="shanrenLeft">
+						<p>我 的 订 单</p>
+					</div>
+					<div class="mineDingDan">
+						<div class="mineDingDanimg1 fukuan">
+							<p><span class="iconfont icon-daifukuan"></span></p>
+							<p>待付款</p>
+						</div>
+						<div class="mineDingDanimg1 fahuo">
+							<p><span class="iconfont icon-daifahuo"></span></p>
+							<p>待发货</p>
+						</div>
+						<div class="mineDingDanimg1 shouhuo">
+							<p><span class="iconfont icon-zu"></span></p>
+							<p>待收货</p>
+						</div>
+						<div class="mineDingDanimg1 pingjia">
+							<p><span class="iconfont icon-weibiaoti3"></span></p>
+							<p>评价</p>
+						</div>
+						<div class="mineDingDanimg1 tuikuan">
+							<p><span class="iconfont icon-tuikuan"></span></p>
+							<p>退款/售后</p>
+						</div>
+					</div>
+					<div class="mineFooter">
+						<div class="mineFooter1">
+							<div class="mine_shanrenLeft" style="background-color: rgb(173,24,30);">
+								<p>我 的 功 能</p>
+							</div>
+						</div>
+						<div class="mineFooter2">
+							<p>会员</p>
+							<p>客服</p>
+							<p>支付</p>
+							<p>收藏</p>
+							<p>设置</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
